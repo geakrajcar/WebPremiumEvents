@@ -1,0 +1,250 @@
+body{
+  background-color: #1a1a1a;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    border-radius: 0px;
+    background-color: #1a1a1a;
+    height:105px;
+    border-color: #1a1a1a;
+}
+.navbar-inverse{
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 206px;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.navbar-brand img{
+  width:206px;
+}
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin-left: -103px;
+}
+
+.h1-upcoming{
+  text-transform: uppercase;
+  color: #ff4136;
+  font-size: 28px;
+  margin-top:150px;
+}
+.h2-upcoming{
+  text-transform: uppercase;
+  color: #ff4136;
+  font-size: 20px;
+  padding-bottom:30px;
+}
+.tickets{
+  padding-top:30px;
+}
+.p-about-event{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  Color: #ffffff;
+}
+.h2-subtitle{
+  color: #fff64d;
+  font-size:24px;
+  padding-bottom:10px;
+}
+.btn-tickets{
+  padding: 10px 30px 10px 30px;
+  background-color: #1a1a1a;
+  border: 5px solid #ff4136;
+  color: #fff64d;
+  font-size:18px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.p-tickets{
+  color: #fff64d;
+  font-size: 18px;
+    margin-bottom: 50px;
+}
+.h1-event{
+  color: #fff64d;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.h1-event-small{
+  color: #fff64d;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.top-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 66px;
+    padding: 4px 16px 8px 16px;
+    background-color: #fff64d;
+}
+
+.top-left-2{
+  position: absolute;
+  top:62px;
+  left:0px;
+  width: 66px;
+  background-color: #ff4136;
+}
+.r-adjust{
+  margin-left: 10px;
+}
+.event-day{
+  text-transform: uppercase;
+  color: #ff4136;
+  font-size: 25px;
+  margin-top:5px;
+  margin-bottom:0px;
+}
+.event-month{
+  text-transform: uppercase;
+  color: #ff4136;
+  font-size: 15px;
+  margin-top:0px;
+  margin-bottom:5px;
+}
+.event-city{
+  color: #fff64d;
+  text-transform: uppercase;
+  padding: 3px 0 3px 0;
+  font-size: 12px;
+  margin: 0px;
+}
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+.main-event{
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  padding: 0px;
+}
+.l-event{
+  padding-right:10px;
+}
+.r-event{
+  padding-left: 10px;
+}
+.row{
+  padding-bottom:20px;
+}
+.div-event-info img{
+  display: block;
+  margin: 0 auto;
+  padding-top:30px;
+}
+.h2-event-info{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.img-icon{
+  height: 85px;
+}
+.img-social{
+  width: 30px;
+  padding-top:15px;
+}
+footer{
+  background-color: black;
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:30px;
+}
+footer p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+}
+.credits{
+  color: #595959;
+  font-size:8px;
+  padding-top:40px;
+}
+.v-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.img-sponsor{
+  padding:10px 10px 10px 10px;
+}
+@media only screen and (max-width: 992px) {
+    .l-event{
+      padding-right:0px;
+      padding-bottom:20px;
+    }
+    .r-event{
+      padding-left:0px;
+    }
+    .r-adjust{
+      margin-left: 0px;
+    }
+    .h1-event{
+      font-size:30px;
+    }
+    .h1-event-small{
+      font-size: 30px;
+    }
+    .top-left{
+        width: 50px;
+        padding: 3px 12px 6px 12px;
+    }
+
+    .top-left-2{
+      top:47px;
+      width: 50px;
+    }
+    .event-day{
+      font-size: 19px;
+      margin-top:4px;
+    }
+    .event-month{
+      font-size: 11px;
+      margin-bottom:4px;
+    }
+    .event-city{
+      padding: 3px 0 3px 0;
+      font-size: 9px;
+      margin: 0px;
+    }
+
+    .h2-event-info{
+      font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+  .img-sponsor{
+    padding:10px 100px 10px 100px;
+  }
+}
